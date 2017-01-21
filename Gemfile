@@ -25,14 +25,16 @@ gem 'jbuilder', '~> 2.5'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
-# Gems for authentication
 gem 'devise_token_auth'
 gem 'omniauth'
 
-# Gems to files upload
 gem 'carrierwave'
 gem 'carrierwave-base64'
 gem 'mini_magick'
+gem 'cloudinary'
+gem 'geocoder'
+
+gem 'searchkick'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
